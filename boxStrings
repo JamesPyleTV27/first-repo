@@ -10,12 +10,12 @@ def makeTheBox(listOfWords):
       
   starCount=""
 
-  for k in range(longestWord):
+  for k in range(longestWord + 4):
     starCount+="*"
 
   print(starCount)
   for j in listOfWords:
-    print("*"+ j + "*")
+    print("* "+ j + " *")
     
   print(starCount)
   
